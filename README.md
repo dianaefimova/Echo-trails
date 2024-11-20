@@ -49,7 +49,7 @@ A fast, secure, and globally distributed hosting solution for seamless app deliv
 
 ## Installation and Setup
 
-### git clone 
+### git clone https://github.com/dianaefimova/Echo-trails.git
 ### cd Echo-trails
 ### npm install
 
