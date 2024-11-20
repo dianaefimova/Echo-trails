@@ -1,70 +1,56 @@
-# Getting Started with Create React App
+# Echo Trails - Nordic Explorer
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## https://echo-trails.web.app
 
-## Available Scripts
+Echo Trails is a web application designed to guide users through the captivating beauty, history, and landmarks of Nordic countries. Leveraging modern web technologies and Firebase, this platform offers an engaging user experience to explore cities, learn about their histories, and discover must-visit sites.
 
-In the project directory, you can run:
 
-### `npm start`
+## Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Comprehensive Nordic Database
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+**Firebase Firestore Integration:**
+Real-time database that stores dynamically updated information about Nordic cities, their historical sites, and attractions.
+**Local JSON Database:**
+Utilized for fallback and efficient offline access to critical data.
 
-### `npm test`
+### User Authentication
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+**Firebase Authentication:**
+Enables secure login and registration functionality, allowing users to create personal accounts and save their favorite landmarks.
 
-### `npm run build`
+### Interactive User Interface
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+**React-based UI:**
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+A responsive and intuitive design that provides seamless navigation across cities and attractions.
+Built with reusable React components for scalability and maintainability.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Tech Stack
 
-### `npm run eject`
+### Frontend
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+**React.js:**
+Built with a modular architecture for scalability and enhanced developer productivity.
+**CSS Modules / Styled Components:**
+To create maintainable and reusable styling for a cohesive look
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Backend
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+**Firebase Firestore:**
+A NoSQL real-time database to manage and synchronize user-generated and static content.
+**Firebase Authentication:**
+Provides secure and scalable authentication for all user type
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Hosting
 
-## Learn More
+**Firebase Hosting:**
+A fast, secure, and globally distributed hosting solution for seamless app delivery.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Installation and Setup
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### git clone 
+### cd Echo-trails
+### npm install
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Available at https://echo-trails.web.app
